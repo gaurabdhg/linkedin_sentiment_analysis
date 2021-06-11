@@ -1,5 +1,5 @@
 require 'selenium-webdriver'
-Selenium::WebDriver::Chrome::Servive#driver_path="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe"
+Selenium::WebDriver::Chrome::Service#driver_path="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe"
 
 driver=Selenium::Webdriver.for :chrome
 
