@@ -73,8 +73,7 @@ def searching()
                     else
                         name2.push(sp[k-1])
                     end
-                rescue => 
-                    next
+                rescue
 
                 end  
 
@@ -95,7 +94,7 @@ def searching()
 
             wait.until{driver.find_element(css: 'div[class="linked-area flex-1 cursor-pointer"]')}.click()
 
-            wait.until{driver.find_element(:link_text,'Message'))).click()
+            wait.until{driver.find_element(:link_text,'Message')}.click
             message=driver.find_element(css: 'div[aria-label="Write a message…"]')
             message.send_keys(z)
             driver.action.key_down(:control).send_keys(:return).key_up(Keys.CONTROL).perform()
