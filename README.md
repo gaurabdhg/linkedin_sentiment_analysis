@@ -1,4 +1,10 @@
-# linkedinwaitwatch
+# linkedin_Sentiment_analysis
+
+
+## Warning::: Data Scraping from Linkedin isn't legal and this code serves only as an example to how it could be attempted.
+Any attempt made with this or any other code to scrape data from linkedin is at your own risk.
+
+
 watch linkedin posts
 add in user name and password.
 
